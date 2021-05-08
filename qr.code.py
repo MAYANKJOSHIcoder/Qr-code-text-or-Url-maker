@@ -6,7 +6,7 @@ qr = qrcode.QRCode(
     border= 5
 )
 
-data = "Hi I am Mayank Joshi who made this code" # write text inside this box
+data = "Hi I am Mayank Joshi who made this code https://github.com/MAYANKJOSHIcoder/Qr-code-text-or-Url-maker" # write text inside this box
 
 qr.add_data(data)
 qr.make(fit = True)
