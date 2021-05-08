@@ -1,2 +1,1 @@
-# Qr-code-text-or-Url-maker
-enter text or url and get qrcode
+Enter text in data and qr code will be done near where code is save
