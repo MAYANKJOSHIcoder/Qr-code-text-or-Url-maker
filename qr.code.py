@@ -1,12 +1,12 @@
-import qrcode
-import image
+import qrcode #pip install qrcode
+import image #pip install image
 qr = qrcode.QRCode(
     version= 15,
     box_size=10,
     border= 5
 )
 
-data = "Hi I am Mayank Joshi."
+data = "Hi I am Mayank Joshi who made this code" # write text inside this box
 
 qr.add_data(data)
 qr.make(fit = True)
